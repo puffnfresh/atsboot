@@ -12,7 +12,7 @@ It paints the screen bright red and then hangs. That's it:
 
 ## Setup
 
-You need a few things to run rustboot:
+You need a few things to run atsboot:
 
 1. qemu
 2. a cross-compiler for i386
