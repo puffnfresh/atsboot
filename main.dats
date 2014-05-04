@@ -18,8 +18,8 @@ let
   var i: int
 in
   begin
-    for* {i: nat | i <= 2000} .<2000 - i>. (i: int i)
-    => (i := 0; i < 2000; i := i + 1)
+    for* {i: nat | i <= 80*25} .<80*25 - i>. (i: int i)
+    => (i := 0; i < 80*25; i := i + 1)
       vram->[i] := @{ ch = '\0', attrib = uint8_of 192 };
   end;
   let prval () = eat_vram pf_vram in () end
